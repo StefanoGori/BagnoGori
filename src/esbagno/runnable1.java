@@ -10,9 +10,8 @@ package esbagno;
  * @author Tomma
  */
 public class runnable1 implements Runnable {
-    
-    public void run(){
-        bagno p1= new bagno();
+    bagno p1= new bagno();
+    public void run(){ 
         p1.Uomo();
     }
     

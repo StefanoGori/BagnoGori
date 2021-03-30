@@ -10,8 +10,8 @@ package esbagno;
  * @author Tomma
  */
 public class runnable2 implements Runnable {
-    public void run(){
-        bagno2 p2= new bagno2();
+    bagno2 p2= new bagno2();
+    public void run(){   
         p2.Donna();
     }
     
